@@ -1,0 +1,35 @@
+C:\Users\veera>nslookup guvi.in
+Server:  multiplay.bsnl.in
+Address:  218.248.112.65
+
+Non-authoritative answer:
+Name:    guvi.in
+Addresses:  2606:4700:20::681a:558
+          2606:4700:20::681a:458
+          2606:4700:20::ac43:46cf
+          104.26.5.88
+          172.67.70.207
+          104.26.4.88
+
+
+C:\Users\veera> ping  104.26.4.88
+
+Pinging 104.26.4.88 with 32 bytes of data:
+Reply from 104.26.4.88: bytes=32 time=78ms TTL=57
+Reply from 104.26.4.88: bytes=32 time=118ms TTL=57
+Reply from 104.26.4.88: bytes=32 time=47ms TTL=57
+Reply from 104.26.4.88: bytes=32 time=38ms TTL=57
+
+Ping statistics for 104.26.4.88:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 38ms, Maximum = 118ms, Average = 70ms
+PS C:\Users\veera> Get-Volume
+
+DriveLetter FriendlyName     FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining      Size
+----------- ------------     -------------- --------- ------------ ----------------- -------------      ----
+E           New Volume       NTFS           Fixed     Healthy      OK                    146.74 GB    150 GB
+D           New Volume       NTFS           Fixed     Healthy      OK                    144.04 GB    150 GB
+            Windows RE tools NTFS           Fixed     Healthy      OK                     63.14 MB    600 MB
+C           Windows          NTFS           Fixed     Healthy      OK                     77.67 GB 176.08 GB
+
